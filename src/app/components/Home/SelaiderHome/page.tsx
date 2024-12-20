@@ -79,13 +79,13 @@ const SelaiderHome = () => {
     ));
 
     return (
-        <div>
+        <div className='w-[1263] max-w-screen-xl justify-center items-center  mx-auto'>
             <h2 className='flex justify-center text-2xl text-yellow-300 font-bold'>Selaider Home</h2>
             <Carousel
                 swipeable={false}
                 draggable={false}
                 showDots={true}
-                responsive={responsive}
+                responsive={responsive }
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}
                 autoPlay={deviceType !== "mobile"} // autoPlay based on deviceType

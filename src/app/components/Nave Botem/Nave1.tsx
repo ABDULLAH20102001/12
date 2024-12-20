@@ -6,6 +6,8 @@ import { AiOutlineHeart } from "react-icons/ai";    //icons ❤
 
 import { LiaShoppingCartSolid } from "react-icons/lia";//icons 🛒
 import { CiSearch } from "react-icons/ci";             //icons search-bar
+import Botem from './Botem';
+import Link from 'next/link';
 
 
 
@@ -116,6 +118,8 @@ const Nave1 = () => {
                     <div className='flex'>
                         <div className='flex items-center hover:text-base hover:w-[80]  w-[80]'>
                             <h2>Login</h2>
+                        
+                            
                             <h2><AiOutlineHeart /></h2>
                         </div>
                         <div className='flex items-center hover:text-base hover:w-[70]  w-[70]'>

@@ -12,6 +12,16 @@ import Product2 from "./components/Product/2Product";
 // import Home from "./page";
 // import Home5 from "./components/Home/Home";
 import SelaiderHome from "./components/Home/SelaiderHome/page";
+import FeaturedProducts from "./components/Product/FeaturedProducts";
+import SelaiderFeaturedProducts from "./components/Product/FeaturedProducts/page";
+import LeatestProducts from "./components/Product/LeatestProducts";
+import WhatShopexOffer from "./components/Product/WhatShopexOffer";
+import TrendingProducts from "./components/Trending Products2/Trending Products";
+import TrendingProductsHome from "./components/Trending Products2/Trending Products Home";
+import DiscountItemHome from "./components/Discount Item/Discount Item Home";
+import A123 from "./components/Discount Item/123";
+import LeatestBlogHome from "./components/Leatest Blog/Leatest Blog Home";
+import LeatestBlog from "./components/Leatest Blog/Leatest Blog";
 // import Selaiderttop from "./components/Selaider Top Categories/page";
 
 
@@ -62,14 +72,29 @@ export default function RootLayout({
         <SelaiderHome/>
         {/* <Home5/> */}
 
-        <Product2 />
+        {/* <Product2 /> */}
+        <SelaiderFeaturedProducts/>
         
         
         
         
         
-        
+        <LeatestProducts/>
         {/* <Selaiderttop/> */}
+
+        <WhatShopexOffer/>
+
+       
+        <TrendingProductsHome/>
+
+        <TrendingProducts/>
+
+        <DiscountItemHome/>
+
+        <A123/>
+
+        <LeatestBlogHome/>
+        <LeatestBlog/>
         
         <Botem />
         {children}
